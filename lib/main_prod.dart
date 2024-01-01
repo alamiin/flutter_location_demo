@@ -4,11 +4,10 @@ import '/flavors/environment.dart';
 import 'app/config/theme/light_theme.dart';
 import 'app/my_app.dart';
 
-
 Future<void> main() async {
 
   EnvConfig devConfig = EnvConfig(
-    appName: "Github Repo App",
+    appName: "Location Demo",
     baseUrl: "https://api.github.com",
     theme: lightTheme,
     shouldCollectCrashLog: true,
